@@ -5,6 +5,7 @@ import {
   MatMenuModule,
   MatToolbarModule,
   MatIconModule,
+  MatSidenavModule,
   MatCardModule
 } from '@angular/material';
 
@@ -18,6 +19,7 @@ import { ObserversModule } from '@angular/cdk/observers';
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
+    MatSidenavModule,
     PlatformModule,
     ObserversModule
   ]
