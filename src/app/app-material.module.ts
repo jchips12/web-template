@@ -8,20 +8,18 @@ import {
   MatCardModule
 } from '@angular/material';
 
+import { PlatformModule } from '@angular/cdk/platform';
+import { ObserversModule } from '@angular/cdk/observers';
+
 @NgModule({
-  imports: [
-    MatButtonModule,
-    MatMenuModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatCardModule
-  ],
   exports: [
     MatButtonModule,
     MatMenuModule,
     MatToolbarModule,
     MatIconModule,
-    MatCardModule
+    MatCardModule,
+    PlatformModule,
+    ObserversModule
   ]
 })
 export class AppMaterialModule { }
